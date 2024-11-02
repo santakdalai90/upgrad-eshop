@@ -1,0 +1,88 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3e4ba9;
+    padding: 10px 20px;
+  }
+  
+  /* Left section for the logo and brand name */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-left .fa-shopping-cart {
+    margin-right: 8px;
+  }
+  
+  .brand-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* Center section for the search bar */
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 70%;
+    max-width: 300px;
+  }
+  
+  .search-bar {
+    padding: 8px 10px 8px 30px; /* Add padding for the icon */
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 0px 4px 8px rgba(30, 60, 150, 0.3); /* Bluish shadow */
+  }
+  
+  /* Search icon styling */
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1.2em;
+  }
+  
+  /* Right section for navigation links and logout button */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    background-color: #ff2a6d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .logout-button:hover {
+    background-color: #e0245e;
+  }
+  

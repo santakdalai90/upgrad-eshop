@@ -1,0 +1,98 @@
+/* Container for the entire sign-in form */
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /* Sign-in box styling */
+  .signin-box {
+    text-align: center;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lock icon styling */
+  .lock-icon {
+    color: #ff2a6d;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Form title styling */
+  .signin-box h2 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  
+  /* Input fields styling */
+  .signin-box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  /* Sign-in button styling */
+  .signin-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3e4ba9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #32408f;
+  }
+  
+  /* Link for sign-up */
+  .signin-box p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .signin-box a {
+    color: #3e4ba9;
+    text-decoration: none;
+  }
+  
+  .signin-box a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  footer a {
+    color: #3e4ba9;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
